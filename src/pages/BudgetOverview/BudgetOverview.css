@@ -1,0 +1,72 @@
+.budget-container {
+    padding: 20px;
+    background-color: #f5f5f5;
+    height: 90vh; 
+  }
+  
+  .budget-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .total-income,
+  .total-expenses,
+  .remaining-budget {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .total-income {
+    color: green;
+  }
+  
+  .total-expenses {
+    color: red;
+  }
+  
+  .description {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .income-color {
+    color: green;
+  }
+  
+  .expense-color {
+    color: red;
+  }
+  
+  .budget-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .budget-table th,
+  .budget-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .budget-table th {
+    background-color: #f5f5f5;
+  }
+  
+  .even-row {
+    background-color: #f9f9f9;
+  }
+  
+  .odd-row {
+    background-color: #ffffff;
+  }
+  
+  .amount-column {
+    font-weight: bold;
+  }
